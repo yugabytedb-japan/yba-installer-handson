@@ -1,7 +1,8 @@
 ## はじめに
 Duration: 05:00
 
-###YBA Installerとは
+###
+YBA Installerとは
 YBA Installerは名前通りYBAをインストールするツールです。従来のReplicatedと比べると、Dockerに依存しない、必要なリソースが少ないなどのアドバンテージがあります。
 
 Replicatedと同様に、新規にインストール、既存環境のアップグレード、複数Universeの管理などの機能が持っています。

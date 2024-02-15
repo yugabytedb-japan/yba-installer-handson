@@ -226,6 +226,8 @@ FATAL[2024-02-14T15:05:51Z] createBackup must be run from /opt/yba-ctl/yba-ctl. 
 
 ## YBA環境のアップグレード
 
+Duration: 20:00
+
 YBA Installerを使用してアップグレードするには、まずアップグレードしたいYBAのバージョンに対応するバージョンのYBA Installerをダウンロードする必要があります。具体的なバージョンはこちらの[リンク](https://docs.yugabyte.com/preview/releases/yba-releases/)を参照してください。
 
 今回は`v2.20.1.3`を利用し、アップグレードのワークフローを説明します。

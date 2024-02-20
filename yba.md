@@ -193,6 +193,14 @@ sudo yba-ctl restoreBackup ~/test_backup/backup_23-04-25-16-64.tgz
 INFO[2024-02-14T15:04:20Z] Restoring a backup of your YugabyteDB Anywhere Installation.
 ```
 
+今回のHands-on Labにて、バックアップとリストアをテストため、テスト用のCloud Providerを作成します。
+
+まずは`YBA GUI > Configs > On-premises Datacenters > Create On Prem Config`をクリックします。 
+
+そして、`Provider Name`、`Regions`、`SSH Key Pairs`を入力し、`Create Provider Configuration`をクリックします。
+
+`OnPrem Provider`が作成した後、一回`Backup`を取り、その後`OnPrem Provider`を削除し、最後に`restoreBackup`を実施し、`OnPrem Provider`が回復したことを確認します。
+
 ### `yba-ctl`を実行する際の注意点
 
 YBA Installerのコマンドは以下のコンテキストで実行されます：
